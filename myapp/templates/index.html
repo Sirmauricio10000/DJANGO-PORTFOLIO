@@ -1,0 +1,276 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Mauricio Avendaño - Portfolio</title>
+        <link rel="icon" type="image/x-icon" href="{% static 'index/assets/img/favicon.ico' %}" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{% static 'index/css/styles.css' %}" rel="stylesheet" />
+        <style>
+            .title {
+                position: absolute;
+                top: 0;
+                right: 0;
+                padding: 10px;
+                font-size: 15px;
+                font-weight: bold;
+                color: #333;
+            }
+        </style>
+    </head>
+    <body id="page-top">
+        <div class="title">Made with Django</div>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Mauricio Avendaño</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static 'index/assets/img/profile.jpg' %}" alt="..." /></span>
+
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Mauricio
+                        <span class="text-success">Avendaño</span>
+                    </h1>
+                    <div class="mb-3 text-success" style="font-size: 24px;">
+                        SOFTWARE DEVELOPER
+                    </div>                    
+                    <div class="subheading mb-5">
+                        Valledupar, Cesar, Colombia · (+57)304-478-7583 ·
+                        <a>mauricio1907_5@outlook.com</a>
+                    </div>
+                    <p class="lead mb-5">
+                        As a Systems Engineer with a focus on software development, I offer a strong academic background and a range of technical skills. I have experience working effectively in teams and possess a high level of ethical and professional responsibility. With my leadership abilities, I can foster positive interpersonal relationships and excel at taking on new challenges. I am driven by a strong desire to continuously learn and grow professionally.
+                        
+                        Overall, I am a dedicated and skilled Systems Engineer who can contribute to your organization. I am eager to utilize my expertise to deliver high-quality solutions and collaborate effectively with colleagues and stakeholders.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/mauricio-avenda%C3%B1o-gonzalez-00032821b/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/Sirmauricio10000"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="https://api.whatsapp.com/send?phone=3044787583"><i class="fab fa-whatsapp"></i></a>
+                        <a class="social-icon" href="https://www.facebook.com/Mauricio1907/"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Backend Developer</h3>
+                            <div class="subheading mb-3">Mobile application for managing routes of the integrated bus transportation system in the city of Valledupar, implementing a graph-oriented non-relational database.</div>
+                            <p>I developed the backend using Python (Flask) to create an API with multiple endpoints for seamless integration with the frontend, which was built using Flutter. My responsibilities included establishing connections to the Aura DB (Neo4j) database and executing queries. I designed and implemented the database in Neo4j, utilizing graph-based data modeling with nodes representing coordinates and relationships representing the transportation routes between buses, using the Cypher query language.
+
+                                I had the opportunity to showcase this mobile application at the Exposoftware Fair in Valledupar, Cesar, Colombia on June 16, 2023. During the event, I presented the application and received recognition for my outstanding work, which led to my certification.
+                                
+                                By incorporating this project into my portfolio, I aim to demonstrate my expertise in backend development, API design, database management, and data modeling. I am excited to share my contribution to this innovative mobile application and showcase my ability to collaborate on impactful projects.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-success">March 2023 - June 2023</span></div>
+                    </div>
+
+                    <div class="mb-5">
+                        <h4>Links</h4>
+                        <p>Find the code for this project on my GitHub repository:</p>
+                        <p><a href="https://github.com/Sirmauricio10000/PROYECTO_BD_RUTAS_VALLEDUPAR" target="_blank" class="text-success">Link to Repository</a></p>
+                        <p>Explore the functionality of my API deployed on Google Cloud:</p>
+                        <p><a href="https://optimal-jigsaw-390200.rj.r.appspot.com/" target="_blank" class="text-success">Link to Api</a></p>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Full Stack Developer</h3>
+                            <div class="subheading mb-3">Web application for student project enrollment at Universidad Popular del Cesar.</div>
+                            <p>I led the development of a sophisticated web application for project enrollment at Universidad Popular del Cesar. With Angular for the frontend and .NET for the backend, I created a seamless user experience and diverse functionality. Students can easily register and submit their projects, while faculty members can evaluate and provide feedback. The application was deployed on Azure for optimal performance and secure data management. Overall, my contributions resulted in an advanced project enrollment solution that promotes collaboration between students and faculty, streamlines administrative processes, and enhances the educational experience at Universidad Popular del Cesar.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-success">March 2022 - June 2022</span></div>
+                    </div>
+
+                    <div class="mb-5">
+                        <h4>Links</h4>
+                        <p>Find the code for this project on my GitHub repository:</p>
+                        <p><a href="https://github.com/Sirmauricio10000/Inscripcion-de-Proyectos" target="_blank" class="text-success">Link to Repository</a></p>
+                        <p>Explore my web App deployed on Azure:</p>
+                        <p><a href="https://inscripcion-de-proyectos.azurewebsites.net/" target="_blank" class="text-success">Link to Web App</a></p>
+                    </div>
+
+
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Universidad Popular del Cesar</h3>
+                            <div class="subheading mb-3">System Engineer</div>
+                            <strong>Valledupar, Cesar, Colombia</strong>
+                            <p>
+                                The Systems Engineering program in Valledupar, Colombia, offers a comprehensive Bachelor's degree focused on information systems. It covers programming, databases, networks, cybersecurity, and project management. Students gain practical experience with cutting-edge technologies and develop crucial skills for careers in software development, IT consulting, and systems analysis. Valledupar provides a conducive learning environment and abundant job opportunities in the technology sector. Graduates are well-prepared for success in the dynamic field of technology.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-success">Since 2018 - in course</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">UPARSISTEM Systems Education Center</h3>
+                            <div class="subheading mb-3">Multimedia and Web Design</div>
+                            <strong>Valledupar, Cesar, Colombia</strong>
+                            <p>
+                                The 18-month program in Multimedia and Web Design at UPARSISTEM provides comprehensive training in the field of digital media and web development. Students gain hands-on experience with industry-standard software and learn essential skills in graphic design, interactive media, web programming, and user experience design. Through a combination of theoretical knowledge and practical projects, graduates of this program are equipped with the expertise to create engaging multimedia content and build dynamic websites. The program's focus on creativity, technical proficiency, and problem-solving prepares students for exciting career opportunities in the ever-evolving field of multimedia and web design.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-success">June 2014 - June 2015</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">UPARSISTEM Systems Education Center</h3>
+                            <div class="subheading mb-3">Office Tools</div>
+                            <strong>Valledupar, Cesar, Colombia</strong>
+                            <p>
+                                The Office Tools program at UPARSISTEM offers comprehensive training in various office productivity software, equipping students with essential skills for efficient and effective workplace operations. Through hands-on learning and practical exercises, students become proficient in using popular office tools such as Microsoft Office Suite, including Word, Excel, PowerPoint, and Outlook. Additionally, they learn about document management, data analysis, presentation creation, and email communication. Graduates of this program are well-prepared to handle a wide range of administrative tasks and contribute to the productivity and success of organizations in various industries. The Office Tools program at UPARSISTEM provides a solid foundation for individuals seeking to enhance their office skills and pursue rewarding careers in administrative support roles.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-success">June 2014 - December 2015</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons-small">
+                        <li class="list-inline-item"><i class="fab fa-angular"></i> Angular</li>
+                        <li class="list-inline-item"><i class="fas fa-code"></i> C#</li>
+                        <li class="list-inline-item"><i class="fab fa-microsoft"></i> .NET</li>
+                        <li class="list-inline-item"><i class="fab fa-python"></i> Python</li>
+                        <li class="list-inline-item"><i class="fab fa-node-js"></i> NodeJS</li>
+                        <li class="list-inline-item"><i class="fab fa-js"></i> JavaScript</li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i> CSS</li>
+                        <li class="list-inline-item"><i class="fab fa-html5"></i> HTML</li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i> TypeScript</li>
+                        <li class="list-inline-item"><i class="fas fa-database"></i> SQL</li>
+                        <li class="list-inline-item"><i class="fas fa-database"></i> MongoDB</li>
+                        <li class="list-inline-item"><i class="fab fa-microsoft"></i> Azure</li>
+                        <li class="list-inline-item"><i class="fab fa-aws"></i> AWS</li>
+                        <li class="list-inline-item"><i class="fab fa-google"></i> Google Cloud</li>
+                        <li class="list-inline-item"><i class="fab fa-java"></i> Java</li>
+                        <li class="list-inline-item"><i class="fab fa-cuttlefish"></i> C++</li>
+                        <li class="list-inline-item"><i class="fab fa-docker"></i> Docker</li>
+                        <li class="list-inline-item"><i class="fab fa-jenkins"></i> Jenkins</li>
+                        <li class="list-inline-item"><i class="fas fa-vial"></i> Unit Testing</li>
+                        <li class="list-inline-item"><i class="fas fa-code-branch"></i> Git</li>
+                        <li class="list-inline-item"><i class="fas fa-code"></i> Visual Studio Code</li>
+                    </ul>
+                    <div class="subheading mb-3">Workflow</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Mobile-First, Responsive Design
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Browser Testing & Debugging
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Functional Teams
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Agile Development & Scrum
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <ul>
+                        <li><strong>Programming in my free time:</strong> I dedicate part of my free time to exploring new programming projects and challenges. I am passionate about continuous learning and honing my skills in software development.</li>
+                        <li><strong>Continuous learning:</strong> I love acquiring new knowledge and staying up-to-date with the latest technological trends. I actively seek opportunities to expand my skills and stay current in such a dynamic field like technology.</li>
+                        <li><strong>Teaching others:</strong> I find joy in sharing my knowledge and experiences with others. I am motivated to help others understand technical concepts and foster their professional growth in the field of technology.</li>
+                        <li><strong>Languages:</strong> I have a strong interest in languages and I am currently improving my English skills. I speak Spanish and Italian fluently, allowing me to effectively communicate with people from different cultures.</li>
+                        <li><strong>Problem-solving:</strong> I am passionate about tackling challenges and finding creative solutions. I enjoy the process of analyzing complex problems and developing effective strategies to solve them.</li>
+                        <li><strong>Team collaboration:</strong> I value teamwork and collaboration. I believe in the importance of effective communication, empathy, and building strong relationships to achieve common goals.</li>
+                    </ul>
+                </div>    
+            </section>
+            <hr class="m-0" />
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Awards & Certifications</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+                            Office Tools and Multimedia Design Certifications - Uparsistem
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+                            Python Essentials - Skillforall
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+                            Basics of Analytics - Skillforall
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+                            Data Collection - Skillforall
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+                            Artificial Intelligence and Machine Learning Concepts - Skillforall
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+                            Data Careers - Skillforall
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
+                            Introduction to Data Science - Skillforall
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Exposoftware Fair 2023 - First Prize for Valledupar Route Project
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{% static 'index/js/scripts.js' %}"></script>
+    </body>
+</html>
