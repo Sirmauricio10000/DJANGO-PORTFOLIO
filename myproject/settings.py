@@ -49,6 +49,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'myapp.middleware.VisitorMiddleware',
 ]
 
 ROOT_URLCONF = 'myproject.urls'
@@ -75,12 +76,25 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'protfoliodatabase',
+        'USER': 'admin',
+        'PASSWORD': '12345678',
+        'HOST': 'portfolio-mau-instance.cyi2djnjpyzr.us-west-2.rds.amazonaws.com',
+        'PORT': '3306',
     }
 }
+
 
 
 # Password validation
