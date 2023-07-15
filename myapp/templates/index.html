@@ -99,9 +99,17 @@
                     <div class="mb-5">
                         <h4>Links</h4>
                         <p>Find the code for this project on my GitHub repository:</p>
-                        <p><a href="https://github.com/Sirmauricio10000/PROYECTO_BD_RUTAS_VALLEDUPAR" target="_blank" class="text-success">Link to Repository</a></p>
+
+                        {% with link_url='https://github.com/Sirmauricio10000/PROYECTO_BD_RUTAS_VALLEDUPAR' %}
+                        <p><a href="{% url 'link_clicked' link_url %}" target="_blank" class="text-success">Link to Repository</a></p>
+                        {% endwith %}
+
                         <p>Explore the functionality of my API deployed on Google Cloud:</p>
-                        <p><a href="https://optimal-jigsaw-390200.rj.r.appspot.com/" target="_blank" class="text-success">Link to Api</a></p>
+
+                        {% with link_url='https://optimal-jigsaw-390200.rj.r.appspot.com' %}
+                        <p><a href="{% url 'link_clicked' link_url %}" target="_blank" class="text-success">Link to API</a></p>
+                        {% endwith %}
+
                     </div>
 
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
@@ -116,9 +124,15 @@
                     <div class="mb-5">
                         <h4>Links</h4>
                         <p>Find the code for this project on my GitHub repository:</p>
-                        <p><a href="https://github.com/Sirmauricio10000/Inscripcion-de-Proyectos" target="_blank" class="text-success">Link to Repository</a></p>
+
+                        {% with link_url='https://github.com/Sirmauricio10000/Inscripcion-de-Proyectos' %}
+                        <p><a href="{% url 'link_clicked' link_url %}" target="_blank" class="text-success">Link to Repository</a></p>
+                        {% endwith %}
+    
                         <p>Explore my web App deployed on Azure:</p>
-                        <p><a href="https://inscripcion-de-proyectos.azurewebsites.net/" target="_blank" class="text-success">Link to Web App</a></p>
+                        {% with link_url='https://inscripcion-de-proyectos.azurewebsites.net' %}
+                        <p><a href="{% url 'link_clicked' link_url %}" target="_blank" class="text-success">Link to Web App</a></p>
+                        {% endwith %}
                     </div>
 
 
