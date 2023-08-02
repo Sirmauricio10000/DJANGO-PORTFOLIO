@@ -85,15 +85,13 @@
                     <h2 class="mb-5">Experience</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Backend Developer</h3>
-                            <div class="subheading mb-3">Mobile application for managing routes of the integrated bus transportation system in the city of Valledupar, implementing a graph-oriented non-relational database.</div>
-                            <p>I developed the backend using Python (Flask) to create an API with multiple endpoints for seamless integration with the frontend, which was built using Flutter. My responsibilities included establishing connections to the Aura DB (Neo4j) database and executing queries. I designed and implemented the database in Neo4j, utilizing graph-based data modeling with nodes representing coordinates and relationships representing the transportation routes between buses, using the Cypher query language.
+                            <h3 class="mb-0">Full-Stack Developer - React - Python</h3>
+                            <div class="subheading mb-3">Web application for managing routes of the integrated bus transportation system in the city of Valledupar, implementing a graph-oriented non-relational database.</div>
+                            <p>As a full-stack developer and project lead, I have been working on an exciting web-based platform aimed at optimizing public transportation route planning. Leveraging Python with Flask in the backend, I established secure connections with the Aura DB (Neo4j) database. The backend utilizes a graph-based data model to manage complex relationships between transportation coordinates, enabling efficient and personalized route options. I execute optimized Cypher queries to extract real-time and accurate information on available routes.
 
-                                I had the opportunity to showcase this mobile application at the Exposoftware Fair in Valledupar, Cesar, Colombia on June 16, 2023. During the event, I presented the application and received recognition for my outstanding work, which led to my certification.
-                                
-                                By incorporating this project into my portfolio, I aim to demonstrate my expertise in backend development, API design, database management, and data modeling. I am excited to share my contribution to this innovative mobile application and showcase my ability to collaborate on impactful projects.</p>
+                                For the frontend, I utilized the powerful JavaScript library, React, to design a modern and intuitive user interface. The web application prioritizes responsiveness and usability, significantly enhancing the user experience during transportation journey planning. As the project progresses, my dedication remains focused on creating a comprehensive and functional solution that simplifies and optimizes users' daily commutes, improving urban mobility and delivering an exceptional user experience.</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-success">March 2023 - June 2023</span></div>
+                        <div class="flex-shrink-0"><span class="text-success">March 2023 - Currently in Progress</span></div>
                     </div>
 
                     <div class="mb-5">
@@ -101,7 +99,11 @@
                         <p>Find the code for this project on my GitHub repository:</p>
 
                         {% with link_url='https://github.com/Sirmauricio10000/PROYECTO_BD_RUTAS_VALLEDUPAR' %}
-                        <p><a href="{% url 'link_clicked' link_url %}" target="_blank" class="text-success">Link to Repository</a></p>
+                        <p><a href="{% url 'link_clicked' link_url %}" target="_blank" class="text-success">Link to Backend Repository</a></p>
+                        {% endwith %}
+
+                        {% with link_url='https://github.com/Sirmauricio10000/turuta_front-end-REACT' %}
+                        <p><a href="{% url 'link_clicked' link_url %}" target="_blank" class="text-success">Link to Frontend Repository</a></p>
                         {% endwith %}
 
                         <p>Explore the functionality of my API deployed on Google Cloud:</p>
@@ -110,11 +112,16 @@
                         <p><a href="{% url 'link_clicked' link_url %}" target="_blank" class="text-success">Link to API</a></p>
                         {% endwith %}
 
+                        <p>Link to Web App on GitHub Pages:</p>
+                        {% with link_url='https://sirmauricio10000.github.io/turuta_front-end-REACT/' %}
+                        <p><a href="{% url 'link_clicked' link_url %}" target="_blank" class="text-success">Link to WEB APP</a></p>
+                        {% endwith %}
+
                     </div>
 
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Full Stack Developer</h3>
+                            <h3 class="mb-0">Full Stack Developer - Angular - .NET</h3>
                             <div class="subheading mb-3">Web application for student project enrollment at Universidad Popular del Cesar.</div>
                             <p>I led the development of a sophisticated web application for project enrollment at Universidad Popular del Cesar. With Angular for the frontend and .NET for the backend, I created a seamless user experience and diverse functionality. Students can easily register and submit their projects, while faculty members can evaluate and provide feedback. The application was deployed on Azure for optimal performance and secure data management. Overall, my contributions resulted in an advanced project enrollment solution that promotes collaboration between students and faculty, streamlines administrative processes, and enhances the educational experience at Universidad Popular del Cesar.</p>
                         </div>
@@ -134,8 +141,6 @@
                         <p><a href="{% url 'link_clicked' link_url %}" target="_blank" class="text-success">Link to Web App</a></p>
                         {% endwith %}
                     </div>
-
-
                 </div>
             </section>
             <hr class="m-0" />
