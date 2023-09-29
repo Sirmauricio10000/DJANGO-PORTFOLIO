@@ -84,14 +84,6 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 # }
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'protfoliodatabase',
-        'USER': 'admin',
-        'PASSWORD': '12345678',
-        'HOST': 'portfolio-mau-instance.cyi2djnjpyzr.us-west-2.rds.amazonaws.com',
-        'PORT': '3306',
-    }
 }
 
 
